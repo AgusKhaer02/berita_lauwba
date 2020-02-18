@@ -32,4 +32,15 @@ dependencies {
     testImplementation 'junit:junit:4.12'
     androidTestImplementation 'androidx.test.ext:junit:1.1.1'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.2.0'
+
+    //retrofit
+    implementation 'com.squareup.retrofit2:retrofit:2.4.0'
+    implementation 'com.squareup.retrofit2:adapter-rxjava2:2.4.0'
+    implementation 'com.squareup.retrofit2:converter-gson:2.4.0'
+
+    //interceptor
+    implementation 'com.squareup.okhttp3:logging-interceptor:3.13.0'
+
+    //javax annotations
+    implementation 'org.glassfish:javax.annotation:10.0-b28'
 }
