@@ -43,4 +43,11 @@ dependencies {
 
     //javax annotations
     implementation 'org.glassfish:javax.annotation:10.0-b28'
+
+
+//  cardview
+    implementation "androidx.cardview:cardview:1.0.0"
+
+//  recycler view
+    implementation 'androidx.recyclerview:recyclerview:1.1.0'
 }
